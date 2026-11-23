@@ -1,0 +1,4 @@
+@media screen and (max-width: 700px) {
+    .pill.hero { aspect-ratio: 3/4; font-size: clamp(1em, 4vw, 1.5em); }
+    .head.control>a { display: none; }
+}

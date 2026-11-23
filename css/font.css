@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Krona+One&family=Lexend:wght@100..900&family=Questrial&display=swap');
+
+:root {
+    
+    --font-lexend: "Lexend", sans-serif;
+    --font-questrial: "Questrial", sans-serif;
+    --font-krona-one: "Krona One", sans-serif;
+    --font-cal-sans: "Cal Sans", sans-serif;
+    
+    --mark-font: var(--font-krona-one);
+    --head-1-font: var(--font-krona-one);
+    --head-2-font: var(--font-krona-one);
+    --head-3-font: var(--font-krona-one);
+    --body-font: var(--font-cal-sans);
+    --code-font: monospace;
+    --cite-font: var(--lexend);
+}
+
+body, html {
+    font-family: var(--body-font);
+}
+
+.logo, .mark { font-family: var(--mark-font); }
+
+.head, h1, h2, h3 { font-family: var(--head-1-font); }
+h2 { font-family: var(--head-2-font); }
+h3 { font-family: var(--head-3-font); }
+
+code { font-family: var(--code-font); }
+cite { font-family: var(--cite-font); }

@@ -1,0 +1,20 @@
+:root {
+    --fg-1: #fa007a;
+    --fg-2: #fa77aa;
+    --fg-3: #fa9da9;
+    --bg-1: #905;
+    --bg-2: #d28;
+    --bg-3: #fa007a;
+
+    --solid-black: #121212;
+    --solid-white: #fefefe;
+}
+
+.fg-1 { color: var(--fg-1); }
+.fg-2 { color: var(--fg-2); }
+.fg-3 { color: var(--fg-3); }
+.bg-1 { background-color: var(--bg-1); }
+.bg-2 { background-color: var(--bg-2); }
+.bg-3 { background-color: var(--bg-3); }
+.white { color: var(--solid-white); }
+.black { color: var(--solid-black); }
